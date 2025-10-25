@@ -29,7 +29,7 @@ export default function HomePage() {
             The Soul of Ethiopian Coffee
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white/75">
-            Crafted with heritage, exported with excellence — CUP COFFEE brings Ethiopia’s finest beans to the world.
+            Crafted with heritage, exported with excellence — COFFEE CUP brings Ethiopia’s finest beans to the world.
           </p>
           <Link href="/coffees">
             <Button className="bg-[#D0C0AC]/20 text-white/75 hover:bg-[#D0C0AC]/30 text-lg px-6 py-3 rounded-lg font-medium">
@@ -65,7 +65,7 @@ export default function HomePage() {
         >
           <h2 className="font-display text-4xl text-coffee-800">Our Story</h2>
           <p className="text-lg text-coffee-700 leading-relaxed">
-            From the lush Ethiopian highlands, where coffee first blossomed, CUP COFFEE embodies centuries of craftsmanship and authenticity.
+            From the lush Ethiopian highlands, where coffee first blossomed, COFFEE CUP embodies centuries of craftsmanship and authenticity.
             We work directly with local farmers to ensure that every bean tells the story of its origin — rich, pure, and deeply Ethiopian.
           </p>
           <Link href="/about">
@@ -126,7 +126,7 @@ export default function HomePage() {
           Partner with Ethiopia’s Finest Export Brand
         </motion.h2>
         <p className="max-w-2xl mx-auto text-coffee-700 mb-8">
-          Whether you’re a global distributor or local partner, CUP COFFEE ensures excellence from crop to cup.
+          Whether you’re a global distributor or local partner, COFFEE CUP ensures excellence from crop to cup.
         </p>
         <Link href="/contact">
           <Button className="bg-[#D0C0AC] text-white/80 hover:bg-[#D0C0AC]/70 text-lg px-6 py-3 rounded-lg font-medium">

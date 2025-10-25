@@ -17,7 +17,7 @@ export default function Footer() {
         >
           {/* Company */}
           <div>
-            <h4 className="font-display text-lg mb-2 text-gold">CUP COFFEE</h4>
+            <h4 className="font-display text-lg mb-2 text-gold">COFFEE CUP</h4>
             <p className="text-sm opacity-80">
               From the Ethiopian highlands to the world — delivering premium coffee with authenticity and excellence.
             </p>
@@ -48,7 +48,7 @@ export default function Footer() {
 
         <Separator className="my-6 bg-coffee-700" />
         <p className="text-center text-xs opacity-60">
-          © {new Date().getFullYear()} CUP COFFEE — All Rights Reserved.
+          © {new Date().getFullYear()} COFFEE CUP — All Rights Reserved.
         </p>
       </div>
     </footer>

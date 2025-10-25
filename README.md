@@ -1,7 +1,7 @@
 
-# ☕ CUP COFFEE — Ethiopian Coffee Exporter Website
+# ☕ COFFEE CUP — Ethiopian Coffee Exporter Website
 
-**CUP COFFEE** is a modern, luxurious, and culturally authentic web experience representing Ethiopia’s finest coffee exporter.  
+**COFFEE CUP** is a modern, luxurious, and culturally authentic web experience representing Ethiopia’s finest coffee exporter.  
 The website blends premium design aesthetics with Ethiopian warmth — telling the story of coffee from the highlands to the world.
 
 ---
@@ -98,6 +98,6 @@ The project is optimized for **Vercel** hosting.
 
 ## 🏁 License
 
-© 2025 CUP COFFEE. All rights reserved.
+© 2025 COFFEE CUP. All rights reserved.
 Developed by [Amaklo B2B Advertising Agency](https://amaklo.com).
 

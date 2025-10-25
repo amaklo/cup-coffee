@@ -36,13 +36,13 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/images/logo.jpg"
-            alt="Cup Coffee Logo"
+            alt="COFFEE CUP Logo"
             width={40}
             height={40}
             className="rounded-full"
           />
           <span className="font-display text-xl font-semibold text-coffee-800">
-            CUP COFFEE
+            COFFEE CUP
           </span>
         </Link>
 

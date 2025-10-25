@@ -4,7 +4,7 @@ import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 
 export const metadata = {
-  title: "CUP COFFEE",
+  title: "COFFEE CUP",
   description: "From the Ethiopian Highlands to the World's Finest Cups"
 };
 

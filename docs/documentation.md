@@ -1,9 +1,9 @@
-# 🟤 CUP COFFEE — Official Brand & Website Design Documentation
+# 🟤 COFFEE CUP — Official Brand & Website Design Documentation
 
 **Version:** 1.0
 **Date:** October 2025
 **Prepared by:** [Amaklo B2B Advertising Agency](https://amaklo.com)
-**For:** CUP COFFEE (Ethiopia)
+**For:** COFFEE CUP (Ethiopia)
 
 ---
 
@@ -11,7 +11,7 @@
 
 ### Brand Essence
 
-**CUP COFFEE** is an Ethiopian coffee exporter that bridges **centuries of heritage** with **global luxury standards**.
+**COFFEE CUP** is an Ethiopian coffee exporter that bridges **centuries of heritage** with **global luxury standards**.
 The brand expresses the **soul of Ethiopian coffee** — rich, aromatic, and deeply cultural — while embodying the precision and elegance of international trade professionalism.
 
 **Core Message:**
@@ -187,7 +187,7 @@ Each section will be modular using **Shadcn UI** components with **custom stylin
 
 ## Final Words
 
-**CUP COFFEE** isn’t just another coffee exporter site — it’s a digital experience.
+**COFFEE CUP** isn’t just another coffee exporter site — it’s a digital experience.
 It blends the **heritage of Ethiopian coffee culture** with the **refinement of international luxury**.
 Every scroll, every animation, every color should feel like the aroma of freshly roasted beans — *authentic, warm, and unforgettable.*
 

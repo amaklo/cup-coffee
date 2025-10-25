@@ -31,7 +31,7 @@ export default function AboutPage() {
           className="relative z-10 text-5xl md:text-6xl font-serif text-white drop-shadow-xl text-center"
         >
           ABOUT
-          CUP COFFEE
+          COFFEE CUP
         </motion.h1>
       </section>
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-serif mb-6">Our Story</h2>
           <Separator className="bg-[#b79b64] mb-8 mx-auto w-20" />
           <p className="text-lg leading-relaxed text-[#3a2b1a]">
-            CUP COFFEE was founded with a single vision — to share Ethiopia’s
+            COFFEE CUP was founded with a single vision — to share Ethiopia’s
             world-renowned coffee with the globe, while preserving its authentic
             roots and cultural soul. From the highlands of Yirgacheffe to the
             hills of Sidamo, our beans are ethically sourced, expertly roasted,
