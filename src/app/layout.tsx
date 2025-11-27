@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import { ReactNode } from "react";
-import Navbar from "@/components/layout/navbar";
-import Footer from "@/components/layout/footer";
+import { Toaster } from "sonner";
 
 export const metadata = {
   title: "COFFEE CUP",
@@ -12,9 +11,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-cream text-coffee-900">
-        <Navbar />
-        <main className="pt-20">{children}</main>
-        <Footer />
+        {children}
+        <Toaster richColors position="top-right" />
       </body>
     </html>
   );

@@ -2,11 +2,9 @@
 
 import { motion } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Textarea } from '@/components/ui/textarea'
-import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import Image from 'next/image'
+import { ContactForm } from './contact-form'
 
 export default function ContactPage() {
   return (
@@ -84,51 +82,15 @@ export default function ContactPage() {
           </motion.div>
 
           {/* Contact Form */}
-          <motion.form
+          <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
             className="space-y-6"
-            onSubmit={(e) => e.preventDefault()}
           >
-            <Card className="border-0 shadow-md bg-white rounded-2xl">
-              <CardContent className="p-8 space-y-4">
-                <div>
-                  <label className="block text-sm mb-2 text-[#3a2b1a]">Full Name</label>
-                  <Input
-                    type="text"
-                    placeholder="Enter your name"
-                    className="border-[#b79b64]/30 focus-visible:ring-[#b79b64]"
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm mb-2 text-[#3a2b1a]">Email</label>
-                  <Input
-                    type="email"
-                    placeholder="Enter your email"
-                    className="border-[#b79b64]/30 focus-visible:ring-[#b79b64]"
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm mb-2 text-[#3a2b1a]">Message</label>
-                  <Textarea
-                    placeholder="Write your message..."
-                    className="border-[#b79b64]/30 focus-visible:ring-[#b79b64] h-32"
-                    required
-                  />
-                </div>
-                <Button
-                  type="submit"
-                  className="bg-[#2b1d0e] hover:bg-[#3a2b1a] text-white w-full py-3 rounded-full"
-                >
-                  Send Message
-                </Button>
-              </CardContent>
-            </Card>
-          </motion.form>
+            <ContactForm />
+          </motion.div>
         </div>
       </section>
 
