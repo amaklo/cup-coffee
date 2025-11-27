@@ -9,7 +9,9 @@ export async function GET() {
       prisma.news.findMany({ select: { views: true } }),
     ]);
 
-    const totalViews = newsList.reduce((acc, n) => acc + n.views, 0);
+    const totalViews = newsList.reduce((acc: number, n: { views: number }) => {
+      return acc + n.views;
+    }, 0);
 
     return NextResponse.json({
       totalNews,
